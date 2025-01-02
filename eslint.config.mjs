@@ -12,6 +12,12 @@ export default [
     rules: {
       semi: "error",
       "prefer-const": "error"
+    },
+    // 配置react版本
+    settings: {
+      react: {
+        version: "detect" // 或者指定具体版本
+      }
     }
   },
   pluginJs.configs.recommended,
