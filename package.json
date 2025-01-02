@@ -7,7 +7,8 @@
     "start": "cross-env NODE_ENV=development webpack server --config config/webpack.config.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.config.js",
     "prepare": "husky",
-    "lint": "lint-staged"
+    "lint": "lint-staged",
+    "commitlint": "commitlint --edit"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,8 @@
     "@babel/plugin-transform-runtime": "^7.25.9",
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.26.3",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
     "@eslint/js": "^9.17.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "babel-loader": "^9.2.1",
